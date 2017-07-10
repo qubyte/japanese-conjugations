@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/style.css">
+  </head>
+  <body>
+    <p>What is the {{form}} form of {{plain}} ({{kana}})?</p>
+    <form method="get" action="/check">
+      <input type="text" name="guess" autofocus>
+      <input name="form" value="{{form}}" type="hidden">
+      <input name="plain" value="{{plain}}" type="hidden">
+      <button type="submit">submit</button>
+    </form>
+  </body>
+</html>

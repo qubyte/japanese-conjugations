@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/style.css">
+  </head>
+  <body>
+  {{#result}}
+    <h1 class="correct">Correct</h1>
+  {{/result}}
+  {{^result}}
+    <h1 class="incorrect">Incorrect</h1>
+    <p>You answered {{guess}}, but the answer was {{actual}}</p>
+  {{/result}}
+  <form action="/test" method="get">
+    <button type="submit" autofocus>next</button>
+  </form>
+  </body>
+</html>
