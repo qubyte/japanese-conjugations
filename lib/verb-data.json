@@ -1,0 +1,765 @@
+[
+  {
+    "kana": "あう",
+    "kanji": "会う",
+    "meaning": "to meet, to see",
+    "type": "i",
+    "kind": "godan"
+  },
+  {
+    "kana": "あく",
+    "kanji": "開く",
+    "meaning": "to open, to become open",
+    "type": "i",
+    "kind": "godan"
+  },
+  {
+    "kana": "あける",
+    "kanji": "開ける",
+    "meaning": "to open",
+    "type": "t",
+    "kind": "ichidan"
+  },
+  {
+    "kana": "あげる",
+    "kanji": "上げる",
+    "meaning": "to give",
+    "type": "t",
+    "kind": "ichidan"
+  },
+  {
+    "kana": "あそぶ",
+    "kanji": "遊ぶ",
+    "meaning": "to play, to enjoy oneself",
+    "type": "i",
+    "kind": "godan"
+  },
+  {
+    "kana": "あびる",
+    "kanji": "あびる",
+    "meaning": "to bathe, to shower",
+    "type": "t",
+    "kind": "ichidan"
+  },
+  {
+    "kana": "あらう",
+    "kanji": "洗う",
+    "meaning": "to wash",
+    "type": "t",
+    "kind": "godan"
+  },
+  {
+    "kana": "ある",
+    "kanji": "ある",
+    "meaning": "to be",
+    "type": "i",
+    "kind": "godan"
+  },
+  {
+    "kana": "あるく",
+    "kanji": "歩く",
+    "meaning": "to walk",
+    "type": "i",
+    "kind": "godan"
+  },
+  {
+    "kana": "いう",
+    "kanji": "言う",
+    "meaning": "to say",
+    "type": "a",
+    "kind": "godan"
+  },
+  {
+    "kana": "いく/ゆく",
+    "kanji": "行く",
+    "meaning": "to go",
+    "type": "i",
+    "kind": "godan"
+  },
+  {
+    "kana": "いる",
+    "kanji": "居る",
+    "meaning": "(hum) to be (animate), to exist",
+    "type": "i",
+    "kind": "ichidan"
+  },
+  {
+    "kana": "いる",
+    "kanji": "要る",
+    "meaning": "to need",
+    "type": "i",
+    "kind": "godan"
+  },
+  {
+    "kana": "いれる",
+    "kanji": "入れる",
+    "meaning": "to put in",
+    "type": "t",
+    "kind": "ichidan"
+  },
+  {
+    "kana": "うたう",
+    "kanji": "歌う",
+    "meaning": "to sing",
+    "type": "a",
+    "kind": "godan"
+  },
+  {
+    "kana": "うまれる",
+    "kanji": "生まれる",
+    "meaning": "to be born",
+    "type": "i",
+    "kind": "ichidan"
+  },
+  {
+    "kana": "うる",
+    "kanji": "売る",
+    "meaning": "to sell",
+    "type": "t",
+    "kind": "godan"
+  },
+  {
+    "kana": "おきる",
+    "kanji": "起きる",
+    "meaning": "to get up, to rise",
+    "type": "i",
+    "kind": "ichidan"
+  },
+  {
+    "kana": "おく",
+    "kanji": "置く",
+    "meaning": "to put, to place",
+    "type": "t",
+    "kind": "godan"
+  },
+  {
+    "kana": "おしえる",
+    "kanji": "教える",
+    "meaning": "to teach, to inform",
+    "type": "t",
+    "kind": "ichidan"
+  },
+  {
+    "kana": "おす",
+    "kanji": "押す",
+    "meaning": "to push, to press",
+    "type": "t",
+    "kind": "godan"
+  },
+  {
+    "kana": "おぼえる",
+    "kanji": "覚える",
+    "meaning": "to remember, to memorize",
+    "type": "t",
+    "kind": "ichidan"
+  },
+  {
+    "kana": "およぐ",
+    "kanji": "泳ぐ",
+    "meaning": "to swim",
+    "type": "i",
+    "kind": "godan"
+  },
+  {
+    "kana": "おりる",
+    "kanji": "降りる",
+    "meaning": "to alight (eg from bus), to get off",
+    "type": "i",
+    "kind": "ichidan"
+  },
+  {
+    "kana": "おわる",
+    "kanji": "終る",
+    "meaning": "to finish, to close",
+    "type": "i",
+    "kind": "godan"
+  },
+  {
+    "kana": "かう",
+    "kanji": "買う",
+    "meaning": "to buy",
+    "type": "t",
+    "kind": "godan"
+  },
+  {
+    "kana": "かえす",
+    "kanji": "返す",
+    "meaning": "to return something",
+    "type": "t",
+    "kind": "godan"
+  },
+  {
+    "kana": "かえる",
+    "kanji": "帰る",
+    "meaning": "to go home, to return",
+    "type": "i",
+    "kind": "godan"
+  },
+  {
+    "kana": "掛かる",
+    "kanji": "かかる",
+    "meaning": "to take (eg time, money)",
+    "type": "i",
+    "kind": "godan"
+  },
+  {
+    "kana": "かく",
+    "kanji": "書く",
+    "meaning": "to write",
+    "type": "t",
+    "kind": "godan"
+  },
+  {
+    "kana": "かける",
+    "kanji": "かける",
+    "meaning": "to put on (eg glasses)",
+    "type": "t",
+    "kind": "ichidan"
+  },
+  {
+    "kana": "かける",
+    "kanji": "かける",
+    "meaning": "to dial/call (eg phone)",
+    "type": "t",
+    "kind": "ichidan"
+  },
+  {
+    "kana": "かす",
+    "kanji": "貸す",
+    "meaning": "to lend",
+    "type": "t",
+    "kind": "godan"
+  },
+  {
+    "kana": "かぶる",
+    "kanji": "かぶる",
+    "meaning": "to wear, to put on (head)",
+    "type": "t",
+    "kind": "godan"
+  },
+  {
+    "kana": "かりる",
+    "kanji": "借りる",
+    "meaning": "to borrow, to have a loan",
+    "type": "t",
+    "kind": "ichidan"
+  },
+  {
+    "kana": "きえる",
+    "kanji": "消える",
+    "meaning": "to go out, to vanish",
+    "type": "i",
+    "kind": "ichidan"
+  },
+  {
+    "kana": "きく",
+    "kanji": "聞く",
+    "meaning": "to hear, to listen, to ask",
+    "type": "t",
+    "kind": "godan"
+  },
+  {
+    "kana": "きる",
+    "kanji": "切る",
+    "meaning": "to cut, to chop",
+    "type": "t",
+    "kind": "godan"
+  },
+  {
+    "kana": "きる",
+    "kanji": "着る",
+    "meaning": "to wear, to put on (from shoulders down)",
+    "type": "t",
+    "kind": "ichidan"
+  },
+  {
+    "kana": "くもる",
+    "kanji": "曇る",
+    "meaning": "to become cloudy, to become dim",
+    "type": "i",
+    "kind": "godan"
+  },
+  {
+    "kana": "けす",
+    "kanji": "消す",
+    "meaning": "to erase, to delete, to turn off power",
+    "type": "t",
+    "kind": "godan"
+  },
+  {
+    "kana": "こたえる",
+    "kanji": "答える",
+    "meaning": "to answer, to reply",
+    "type": "i",
+    "kind": "ichidan"
+  },
+  {
+    "kana": "こまる",
+    "kanji": "困る",
+    "meaning": "to be worried, to be bothered",
+    "type": "i",
+    "kind": "godan"
+  },
+  {
+    "kana": "さく",
+    "kanji": "咲く",
+    "meaning": "to bloom",
+    "type": "i",
+    "kind": "godan"
+  },
+  {
+    "kana": "さす",
+    "kanji": "差す",
+    "meaning": "to raise (stretch out) hands, to raise (eg umbrella)",
+    "type": "t",
+    "kind": "godan"
+  },
+  {
+    "kana": "しまる",
+    "kanji": "閉まる",
+    "meaning": "to close, to be closed",
+    "type": "i",
+    "kind": "godan"
+  },
+  {
+    "kana": "しめる",
+    "kanji": "閉める",
+    "meaning": "to close, to shut",
+    "type": "t",
+    "kind": "ichidan"
+  },
+  {
+    "kana": "しめる",
+    "kanji": "締める",
+    "meaning": "to tie, to fasten",
+    "type": "t",
+    "kind": "ichidan"
+  },
+  {
+    "kana": "しる",
+    "kanji": "知る",
+    "meaning": "to know, to understand",
+    "type": "t",
+    "kind": "godan"
+  },
+  {
+    "kana": "すう",
+    "kanji": "吸う",
+    "meaning": "to smoke, to breathe in, to suck",
+    "type": "t",
+    "kind": "godan"
+  },
+  {
+    "kana": "すむ",
+    "kanji": "住む",
+    "meaning": "to reside, to live in",
+    "type": "i",
+    "kind": "godan"
+  },
+  {
+    "kana": "すわる",
+    "kanji": "座る",
+    "meaning": "to sit",
+    "type": "i",
+    "kind": "godan"
+  },
+  {
+    "kana": "だす",
+    "kanji": "出す",
+    "meaning": "to put out, to send",
+    "type": "t",
+    "kind": "godan"
+  },
+  {
+    "kana": "たつ",
+    "kanji": "立つ",
+    "meaning": "to stand",
+    "type": "i",
+    "kind": "godan"
+  },
+  {
+    "kana": "たのむ",
+    "kanji": "頼む",
+    "meaning": "to request, to ask",
+    "type": "t",
+    "kind": "godan"
+  },
+  {
+    "kana": "たべる",
+    "kanji": "食べる",
+    "meaning": "to eat",
+    "type": "t",
+    "kind": "ichidan"
+  },
+  {
+    "kana": "ちがう",
+    "kanji": "違う",
+    "meaning": "to differ (from)",
+    "type": "i",
+    "kind": "godan"
+  },
+  {
+    "kana": "つかう",
+    "kanji": "使う",
+    "meaning": "to use",
+    "type": "t",
+    "kind": "godan"
+  },
+  {
+    "kana": "つかれる",
+    "kanji": "疲れる",
+    "meaning": "to get tired, to tire",
+    "type": "i",
+    "kind": "ichidan"
+  },
+  {
+    "kana": "つく",
+    "kanji": "着く",
+    "meaning": "to arrive at, to reach",
+    "type": "i",
+    "kind": "godan"
+  },
+  {
+    "kana": "つくる",
+    "kanji": "作る",
+    "meaning": "to make, to create",
+    "type": "t",
+    "kind": "godan"
+  },
+  {
+    "kana": "つける",
+    "kanji": "つける",
+    "meaning": "to turn on (eg a light)",
+    "type": "t",
+    "kind": "ichidan"
+  },
+  {
+    "kana": "つとめる",
+    "kanji": "勤める",
+    "meaning": "to serve, to work (for)",
+    "type": "t",
+    "kind": "ichidan"
+  },
+  {
+    "kana": "でかける",
+    "kanji": "出かける",
+    "meaning": "to depart, to go out",
+    "type": "i",
+    "kind": "ichidan"
+  },
+  {
+    "kana": "できる",
+    "kanji": "できる",
+    "meaning": "to be able to",
+    "type": "i",
+    "kind": "ichidan"
+  },
+  {
+    "kana": "でる",
+    "kanji": "出る",
+    "meaning": "to appear, to leave",
+    "type": "i",
+    "kind": "ichidan"
+  },
+  {
+    "kana": "とぶ",
+    "kanji": "飛ぶ",
+    "meaning": "to fly, to hop",
+    "type": "i",
+    "kind": "godan"
+  },
+  {
+    "kana": "とまる",
+    "kanji": "止まる",
+    "meaning": "to come to a halt",
+    "type": "i",
+    "kind": "godan"
+  },
+  {
+    "kana": "とる",
+    "kanji": "取る",
+    "meaning": "to take",
+    "type": "t",
+    "kind": "godan"
+  },
+  {
+    "kana": "とる",
+    "kanji": "撮る",
+    "meaning": "to take (a photo)",
+    "type": "t",
+    "kind": "godan"
+  },
+  {
+    "kana": "なく",
+    "kanji": "鳴く",
+    "meaning": "to sing (bird), to make sound (animal)",
+    "type": "a",
+    "kind": "godan"
+  },
+  {
+    "kana": "なくす",
+    "kanji": "無くす",
+    "meaning": "to lose something",
+    "type": "t",
+    "kind": "godan"
+  },
+  {
+    "kana": "ならう",
+    "kanji": "習う",
+    "meaning": "to learn",
+    "type": "t",
+    "kind": "godan"
+  },
+  {
+    "kana": "ならぶ",
+    "kanji": "並ぶ",
+    "meaning": "to line up, to stand in a line",
+    "type": "i",
+    "kind": "godan"
+  },
+  {
+    "kana": "ならべる",
+    "kanji": "並べる",
+    "meaning": "to line up, to set up",
+    "type": "t",
+    "kind": "ichidan"
+  },
+  {
+    "kana": "なる",
+    "kanji": "なる",
+    "meaning": "to become",
+    "type": "i",
+    "kind": "godan"
+  },
+  {
+    "kana": "ぬぐ",
+    "kanji": "脱ぐ",
+    "meaning": "to take off clothes",
+    "type": "t",
+    "kind": "godan"
+  },
+  {
+    "kana": "ねる",
+    "kanji": "寝る",
+    "meaning": "to go to bed, to sleep",
+    "type": "i",
+    "kind": "ichidan"
+  },
+  {
+    "kana": "のぼる",
+    "kanji": "登る",
+    "meaning": "to climb",
+    "type": "i",
+    "kind": "godan"
+  },
+  {
+    "kana": "のむ",
+    "kanji": "飲む",
+    "meaning": "to drink",
+    "type": "t",
+    "kind": "godan"
+  },
+  {
+    "kana": "のる",
+    "kanji": "乗る",
+    "meaning": "to get on, to ride in, to board",
+    "type": "i",
+    "kind": "godan"
+  },
+  {
+    "kana": "はいる",
+    "kanji": "入る",
+    "meaning": "to enter, to contain, to hold",
+    "type": "i",
+    "kind": "godan"
+  },
+  {
+    "kana": "はく",
+    "kanji": "はく",
+    "meaning": "to wear, to put on (trousers)",
+    "type": "t",
+    "kind": "godan"
+  },
+  {
+    "kana": "はじまる",
+    "kanji": "始まる",
+    "meaning": "to begin",
+    "type": "i",
+    "kind": "godan"
+  },
+  {
+    "kana": "はしる",
+    "kanji": "走る",
+    "meaning": "to run",
+    "type": "i",
+    "kind": "godan"
+  },
+  {
+    "kana": "はたらく",
+    "kanji": "働く",
+    "meaning": "to work",
+    "type": "i",
+    "kind": "godan"
+  },
+  {
+    "kana": "はなす",
+    "kanji": "話す",
+    "meaning": "to speak",
+    "type": "t",
+    "kind": "godan"
+  },
+  {
+    "kana": "はる",
+    "kanji": "貼る",
+    "meaning": "to stick, to paste",
+    "type": "t",
+    "kind": "godan"
+  },
+  {
+    "kana": "はれる",
+    "kanji": "晴れる",
+    "meaning": "to be sunny",
+    "type": "i",
+    "kind": "ichidan"
+  },
+  {
+    "kana": "ひく",
+    "kanji": "引く",
+    "meaning": "to pull",
+    "type": "a",
+    "kind": "godan"
+  },
+  {
+    "kana": "ひく",
+    "kanji": "弾く",
+    "meaning": "to play (piano, guitar)",
+    "type": "t",
+    "kind": "godan"
+  },
+  {
+    "kana": "ふく",
+    "kanji": "吹く",
+    "meaning": "to blow (wind, etc)",
+    "type": "a",
+    "kind": "godan"
+  },
+  {
+    "kana": "ふる",
+    "kanji": "降る",
+    "meaning": "to precipitate, to fall (e.g. rain)",
+    "type": "i",
+    "kind": "godan"
+  },
+  {
+    "kana": "まがる",
+    "kanji": "曲る",
+    "meaning": "to turn, to bend",
+    "type": "i",
+    "kind": "godan"
+  },
+  {
+    "kana": "まつ",
+    "kanji": "待つ",
+    "meaning": "to wait",
+    "type": "a",
+    "kind": "godan"
+  },
+  {
+    "kana": "みがく",
+    "kanji": "磨く",
+    "meaning": "to brush (teeth)",
+    "type": "t",
+    "kind": "godan"
+  },
+  {
+    "kana": "みせる",
+    "kanji": "見せる",
+    "meaning": "to show, to display",
+    "type": "t",
+    "kind": "ichidan"
+  },
+  {
+    "kana": "みる",
+    "kanji": "見る",
+    "meaning": "to see, to watch",
+    "type": "t",
+    "kind": "ichidan"
+  },
+  {
+    "kana": "もつ",
+    "kanji": "持つ",
+    "meaning": "(1) to hold, to carry, (2) to possess",
+    "type": "t",
+    "kind": "godan"
+  },
+  {
+    "kana": "やすむ",
+    "kanji": "休む",
+    "meaning": "to rest, to have a break, to take a day off",
+    "type": "i",
+    "kind": "godan"
+  },
+  {
+    "kana": "やる",
+    "kanji": "やる",
+    "meaning": "to do",
+    "type": "t",
+    "kind": "godan"
+  },
+  {
+    "kana": "よぶ",
+    "kanji": "呼ぶ",
+    "meaning": "to call out, to invite",
+    "type": "t",
+    "kind": "godan"
+  },
+  {
+    "kana": "よむ",
+    "kanji": "読む",
+    "meaning": "to read",
+    "type": "t",
+    "kind": "godan"
+  },
+  {
+    "kana": "わかる",
+    "kanji": "分かる",
+    "meaning": "to understand",
+    "type": "i",
+    "kind": "godan"
+  },
+  {
+    "kana": "わすれる",
+    "kanji": "忘れる",
+    "meaning": "to forget",
+    "type": "t",
+    "kind": "ichidan"
+  },
+  {
+    "kana": "わたす",
+    "kanji": "渡す",
+    "meaning": "to pass over, to hand over",
+    "type": "t",
+    "kind": "godan"
+  },
+  {
+    "kana": "わたる",
+    "kanji": "渡る",
+    "meaning": "to cross over, to go across",
+    "type": "i",
+    "kind": "godan"
+  },
+  {
+    "kana": "する",
+    "kanji": "する",
+    "meaning": "to do",
+    "type": "t",
+    "kind": "suru"
+  },
+  {
+    "kana": "来る",
+    "kanji": "くる",
+    "meaning": "to come",
+    "type": "i",
+    "kind": "kuru"
+  }
+]
