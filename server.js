@@ -11,9 +11,7 @@ app.use(express.static('public'));
 app.use(cookieParser());
 
 app.get('/', (req, res) => {
-  res.render('index', {
-    conjugations: conjugations.map(form => ({ name: form }))
-  });
+  res.render('index', { conjugations });
 });
 
 function getSettings(req, res, next) {
