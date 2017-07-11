@@ -3,30 +3,25 @@
 const express = require('express');
 const cookieParser = require('cookie-parser');
 const { verbs, conjugations } = require('./lib/verbs');
+const getSettings = require('./middleware/get-settings');
 const pick = require('./lib/pick');
 const app = express();
 
 app.set('view engine', 'hbs');
 app.use(express.static('public'));
 app.use(cookieParser());
+app.use(getSettings);
 
 app.get('/', (req, res) => {
-  res.render('index', { conjugations });
+  res.render('index', {
+    conjugations: conjugations.map(c => { 
+      return { name: c, enabled: res.locals.enabled.includes(c) };
+    })
+  });
 });
 
-function getSettings(req, res, next) {
-  if (req.query.settings === 'true') {
-    res.locals.conjugations = conjugations.filter(conjugation => req.query[conjugation] === 'true');
-    res.cookie('japanese-conjugations-settings', res.locals.conjugations, { httpOnly: true, secure: true });
-  } else {
-    res.locals.conjugations = req.cookies['japanese-conjugations-settings'];
-  }
-
-  next();
-}
-
-app.get('/test', getSettings, (req, res) => {
-  const conjugation = pick(res.locals.conjugations);
+app.get('/test', (req, res) => {
+  const conjugation = pick(res.locals.enabled);
   const { plain, kana } = pick(verbs);
   
   res.render('test', { conjugation, plain, kana });

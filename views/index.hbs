@@ -8,12 +8,12 @@
     <h1>Setup</h1>
     <p>Pick the conjugations you'd like to be tested on:
     <form action="/test" method="get">
-      {{#each conjugations}}
+      {{#conjugations}}
       <div>
-        <input type="checkbox" name="{{this}}" value="true">
-        <label>{{this}}</label>
+        <input type="checkbox" name="{{name}}" value="true" {{#enabled}}checked{{/enabled}}>
+        <label>{{name}}</label>
       </div>
-      {{/each}}
+      {{/conjugations}}
       <input name="settings" value="true" type="hidden">
       <button type="submit">begin</button>
     </form>
