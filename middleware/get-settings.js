@@ -11,7 +11,7 @@ function getSettings(req, res, next) {
     enabled = conjugations.filter(c => req.query[c] === 'true');
     res.cookie(cookieName, enabled, cookieOpts);
   } else {
-    enabled = req.cookies[cookieName];
+    enabled = req.cookies[cookieName] || [];
   }
   
   res.locals.enabled = enabled;
