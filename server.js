@@ -13,11 +13,9 @@ app.use(cookieParser());
 app.use(getSettings);
 
 app.get('/', (req, res) => {
-  const enabled = res.locals.enabled;
-  
   res.render('index', {
-    conjugations: conjugations.map(conjugation => { 
-      return { name: conjugation, enabled: enabled.includes(conjugation) };
+    conjugations: conjugations.map(c => { 
+      return { name: c, enabled: res.locals.enabled.includes(c) };
     })
   });
 });
