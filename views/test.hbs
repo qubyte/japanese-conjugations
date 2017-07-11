@@ -5,10 +5,10 @@
     <link rel="stylesheet" type="text/css" href="/style.css">
   </head>
   <body>
-    <p>What is the {{form}} form of {{plain}} ({{kana}})?</p>
-    <form method="get" action="/check">
+    <p>What is the {{conjugation}} conjugation of {{plain}} ({{kana}})?</p>
+    <form action="/check" method="get">
       <input type="text" name="guess" autofocus>
-      <input name="form" value="{{form}}" type="hidden">
+      <input name="conjugation" value="{{conjugation}}" type="hidden">
       <input name="plain" value="{{plain}}" type="hidden">
       <button type="submit">submit</button>
     </form>

@@ -2,7 +2,7 @@
 
 const express = require('express');
 const cookieParser = require('cookie-parser');
-const verbs = require('./lib/verbs');
+const { verbs, conjugations } = require('./lib/verbs');
 const pick = require('./lib/pick');
 const app = express();
 
@@ -11,35 +11,33 @@ app.use(express.static('public'));
 app.use(cookieParser());
 
 app.get('/', (req, res) => {
-  res.render('index', {
-    forms: verbs.forms.map(form => ({ name: form }))
-  });
+  res.render('index', { conjugations });
 });
 
 function getSettings(req, res, next) {
   if (req.query.settings === 'true') {
-    res.locals.forms = verbs.forms.filter(form => req.query[form] === 'true');
-    res.cookie('japanese-conjugations-settings', res.locals.forms, { httpOnly: true, secure: true });
+    res.locals.conjugations = conjugations.filter(conjugation => req.query[conjugation] === 'true');
+    res.cookie('japanese-conjugations-settings', res.locals.conjugations, { httpOnly: true, secure: true });
   } else {
-    res.locals.forms = req.cookies['japanese-conjugations-settings'];
+    res.locals.conjugations = req.cookies['japanese-conjugations-settings'];
   }
 
   next();
 }
 
 app.get('/test', getSettings, (req, res) => {
-  const form = pick(res.locals.forms);
+  const conjugation = pick(res.locals.conjugations);
   const { plain, kana } = pick(verbs);
   
-  res.render('test', { form, plain, kana });
+  res.render('test', { conjugation, plain, kana });
 });
 
 app.get('/check', (req, res) => {
   const plain = req.query.plain;
-  const form = req.query.form;
+  const conjugation = req.query.conjugation;
   const guess = req.query.guess.trim();
   const verb = verbs.find(verb => verb.plain === plain);
-  const actual = verb[form];
+  const actual = verb[conjugation];
   const result = actual === guess;
 
   res.render('check', { result, guess, actual });
