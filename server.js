@@ -30,7 +30,7 @@ app.get('/test', (req, res) => {
 app.get('/check', (req, res) => {
   const plain = req.query.plain;
   const conjugation = req.query.conjugation;
-  const guess = req.query.guess.trim();
+  const guess = req.query.guess.replace(/[\x08|\s]/g, '');
   const verb = verbs.find(verb => verb.plain === plain);
   const actual = verb[conjugation];
   const result = actual === guess;
