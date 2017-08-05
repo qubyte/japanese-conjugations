@@ -10,10 +10,11 @@
   {{/result}}
   {{^result}}
     <h1 class="incorrect">Incorrect</h1>
-    <p>You answered {{guess}}, but the answer was {{actual}}</p>
+    <p>You answered {{guess}}, but the answer was {{kanji}} ({{kana}})</p>
   {{/result}}
   <form action="/test" method="get">
     <button type="submit" autofocus>next</button>
   </form>
+  <p><a href="/">Settings</a></p>
   </body>
 </html>

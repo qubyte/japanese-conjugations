@@ -10,12 +10,18 @@
     <form action="/test" method="get">
       {{#conjugations}}
       <div>
-        <input type="checkbox" name="{{name}}" value="true" {{#enabled}}checked{{/enabled}}>
+        <input type="checkbox" name="{{name}}" {{#enabled}}checked{{/enabled}}>
         <label>{{name}}</label>
       </div>
       {{/conjugations}}
-      <input name="settings" value="true" type="hidden">
+      <hr>
+      <div>
+        <input type="checkbox" name="kanjiOptional" {{#kanjiOptional}}checked{{/kanjiOptional}}>
+        <label>kanji optional</label>
+      </div>
+      <input name="settings" value="on" type="hidden">
       <button type="submit">begin</button>
     </form>
+    <p>Cobbled together with ❤️ by <a href="https://qubyte.codes">qubyte</a>.</p>
   </body>
 </html>
