@@ -1,24 +1,27 @@
 <!doctype html>
 <html>
   <head>
-    <title>Japanese Conjugations</title>
-    <link rel="shortcut icon" href="https://cdn.glitch.com/fe0612b0-5d84-4b23-8faa-9969138860bf%2Ffavicon.ico?1499777044345" type="image/x-icon">
-    <link rel="icon" href="https://cdn.glitch.com/fe0612b0-5d84-4b23-8faa-9969138860bf%2Ffavicon.ico?1499777044345" type="image/x-icon">
     <meta name="viewport" content="initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/style.css">
   </head>
   <body>
     <h1>Setup</h1>
-    <p>Pick the conjugations you'd like to be tested on:</p>
+    <p>Pick the conjugations you'd like to be tested on:
     <form action="/test" method="get">
       {{#conjugations}}
       <div>
-        <input type="checkbox" name="{{name}}" value="true" {{#enabled}}checked{{/enabled}}>
+        <input type="checkbox" name="{{name}}" {{#enabled}}checked{{/enabled}}>
         <label>{{name}}</label>
       </div>
       {{/conjugations}}
-      <input name="settings" value="true" type="hidden">
+      <hr>
+      <div>
+        <input type="checkbox" name="kanjiOptional" {{#kanjiOptional}}checked{{/kanjiOptional}}>
+        <label>kanji optional</label>
+      </div>
+      <input name="settings" value="on" type="hidden">
       <button type="submit">begin</button>
     </form>
+    <p>Cobbled together with ❤️ by <a href="https://qubyte.codes">qubyte</a>.</p>
   </body>
 </html>

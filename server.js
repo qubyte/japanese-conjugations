@@ -14,28 +14,30 @@ app.use(getSettings);
 
 app.get('/', (req, res) => {
   res.render('index', {
-    conjugations: conjugations.map(c => { 
-      return { name: c, enabled: res.locals.enabled.includes(c) };
-    })
+    conjugations: conjugations.map(c => {
+      return { name: c, enabled: res.locals.conjugations.includes(c) };
+    }),
+    kanjiOptional: res.locals.kanjiOptional
   });
 });
 
 app.get('/test', (req, res) => {
-  const conjugation = pick(res.locals.enabled);
+  const conjugation = pick(res.locals.conjugations);
   const { plain, kana } = pick(verbs);
-  
+
   res.render('test', { conjugation, plain, kana });
 });
 
 app.get('/check', (req, res) => {
-  const plain = req.query.plain;
-  const conjugation = req.query.conjugation;
-  const guess = req.query.guess.replace(/[\x08|\s]/g, '');
+  const { plain, conjugation, guess } = req.query;
   const verb = verbs.find(verb => verb.plain === plain);
-  const actual = verb[conjugation];
-  const result = actual === guess;
+  const trimmed = guess.replace(/[\x08|\s]/g, '');
+  const kanjiOptional = res.locals.kanjiOptional;
+  const { kanji, kana } = verb[conjugation];
+  console.log({ kanji, kana, kanjiOptional })
+  const result = kanji === trimmed || kanjiOptional && kana === trimmed;
 
-  res.render('check', { result, guess, actual });
+  res.render('check', { result, guess, kanji, kana });
 });
 
 app.listen(3000, console.log('Listening.'));
